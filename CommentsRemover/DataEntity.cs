@@ -15,14 +15,14 @@ namespace CommentsRemover
         public static string InputFromConsole()
         {
             Console.Write("Enter the number of lines you want: ");
-            var n = int.Parse(Console.ReadLine() ?? string.Empty);
-            var sb = new StringBuilder();
-            for (var i = 0; i < n; i++)
+            var numLines = int.Parse(Console.ReadLine() ?? string.Empty);
+            var inputString= new StringBuilder();
+            for (var i = 0; i < numLines; i++)
             {
-                sb.AppendLine(Console.ReadLine());
+                inputString.AppendLine(Console.ReadLine());
             }
             
-            return sb.ToString();
+            return inputString.ToString();
         }
 
         public static string InputFromFile(string path)
