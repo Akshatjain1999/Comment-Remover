@@ -5,6 +5,11 @@ using System.Text;
 
 namespace CommentsRemover
 {
+    /// <summary>
+    /// DataEntity class has two functions:
+    /// 1) Take input from console
+    /// 2) Tale input from system file.
+    /// </summary>
     public class DataEntity
     {
         public static string InputFromConsole()

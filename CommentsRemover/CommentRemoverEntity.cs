@@ -6,6 +6,12 @@ namespace CommentsRemover
 {
     public class CommentRemoverEntity
     {
+        /// <summary>
+        /// TextProcessing method takes a string parameter
+        /// and use regex to remove comments and return the processed text.
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns>string [] lines</returns>
 
         public string[] TextProcessing(string input)
         {
